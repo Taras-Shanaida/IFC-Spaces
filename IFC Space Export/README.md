@@ -29,7 +29,7 @@ To use the script, follow these steps:
 - `csv`: A built-in Python module for working with CSV files.
 - `os`: A built-in Python module for interacting with the operating system.
 
-## Example
+## Export Example
 
 ```bash
 Name,LongName,GlobalId,Floor,Area,Volume
