@@ -25,7 +25,10 @@ To use the script, follow these steps:
 
 - `csv`: A built-in Python module for working with CSV files.
 
-## Example
+## Example Report
 
 ```bash
-python ifc_spaces_data_comparator.py
+Name,LongName,GlobalId,Floor,Area,Volume
+01-A0001,Office,5UOQVfyRw2Ty9FD8NBgmlx,PLAN 01,4812598.399900446,14437795199.701338,Area different in second file: 4812598.399900446 vs 4123598.421544309
+701-B0001,WC,1HJKNpzXc4Aw6YG2MBouqv,PLAN 01,1627949.9999999509,3907079999.999882,Missing in first file
+02-D0001,Kitchen,8CKXMrtQa3Fb7PH6YZowln,PLAN 02,0,0,Missing in first file
