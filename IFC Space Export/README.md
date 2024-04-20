@@ -1,4 +1,4 @@
-# IFC Space Extractor
+# IFC Space Export
 
 This Python script extracts space parameters from an Industry Foundation Classes (IFC) file, such as space names, global IDs, areas, volumes, and the corresponding floor names. It then exports this data to a CSV file for further analysis or reporting.
 
@@ -32,4 +32,9 @@ To use the script, follow these steps:
 ## Example
 
 ```bash
-python ifc_space_data_extractor.py
+Name,LongName,GlobalId,Floor,Area,Volume
+01-A0001,Office,3TIREkwQv9Sx3FZ1VFezvk,PLAN 01,4812598.399900446,14437795199.701338
+01-B0001,WC,3TIREkwQv9Sx3FZ1VFezpB,PLAN 01,1627949.9999999509,3907079999.999882
+01-C0002,Space,3TIREkwQv9Sx3FZ1VFezbe,PLAN 01,1006252.9999251805,2453647315.01756
+02-A0002,Hallway,3TIREkwQv9Sx3FZ1VFezb_,PLAN 02,298266.79154437076,894800374.6331123
+02-D0001,Kitchen,3TIREkwQv9Sx3FZ1VFezbz,PLAN 02,0,0
